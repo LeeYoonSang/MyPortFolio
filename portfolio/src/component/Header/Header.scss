@@ -1,0 +1,24 @@
+@import "../../style/utils.scss";
+.Header {
+  padding: 1.75rem;
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+
+  @include media("<large"){
+    padding: 1rem;
+  }
+
+  .mobile-logo{
+    @include media(">=large"){
+      display: none;
+    }
+    color: $oc-gray-9;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+}

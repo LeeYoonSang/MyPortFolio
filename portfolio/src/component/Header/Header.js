@@ -1,8 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import './Header.scss';
 
 const Header = () => {
     return (
-        <header>header</header>
+        <div className="Header">
+                <Link to="/" className="mobile-logo">
+                    Header
+                </Link>
+        </div>
     );
 };
 
