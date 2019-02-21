@@ -9,6 +9,7 @@ class App extends Component {
             <div>
                 <Switch>
                     <Route exact path="/" component={Home} />
+                    <Route path="/:mode(about|project)" component={Home}/>
                 </Switch>
             </div>
         );

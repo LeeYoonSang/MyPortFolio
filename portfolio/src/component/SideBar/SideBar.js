@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import { Link, withRouter } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './SideBar.scss';
+
+import MenuItem from 'component/MenuItem';
 
 class SideBar extends Component {
     render() {
@@ -11,7 +13,14 @@ class SideBar extends Component {
                     PortFolio
                 </Link>
                 <ul className="menu">
-                    <li>menu</li>
+                    <MenuItem
+                        text="about"
+                        to="/about"
+                        active={url === '/about'} />
+                    <MenuItem
+                        text="project"
+                        to="/project"
+                        active={url === '/project'} />
                 </ul>
             </aside>
         );
