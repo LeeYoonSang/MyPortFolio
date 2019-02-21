@@ -1,10 +1,12 @@
 import React from 'react';
+import Main from 'container/Main';
+import PageTemplate from 'component/PageTemplate';
 
 const Home = () => {
     return (
-        <div>
-            Home
-        </div>
+        <PageTemplate>
+            <Main />
+        </PageTemplate>
     );
 };
 

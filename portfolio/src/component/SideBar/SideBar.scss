@@ -1,0 +1,37 @@
+@import '../../style/utils.scss';
+
+.Sidebar{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 18rem;
+
+    @include media("<wide"){
+        width: 15rem;
+    }
+    @include media("<large"){
+        transform: translate(-100%);
+    }
+    background: white;
+    height: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: -6px 0px 12px 0px #d6dee4;
+    .logo{
+        padding: 1.75rem 2rem;
+        font-size: 2rem;
+        line-height: 2rem;
+        font-family: "Inconsolata";
+        color: $oc-gray-9;
+        display: block;
+        position: relative;
+    }
+    .menu{
+        margin-top: 1rem;
+        list-style: none;
+        padding-left: 0;
+    }
+    .placer{
+        flex: 1;
+    }
+}
