@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <div className="Header">
                 <Link to="/" className="mobile-logo">
-                    Header
+                    PortFolio
                 </Link>
         </div>
     );

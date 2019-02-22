@@ -4,6 +4,7 @@
   display: flex;
   align-items: center;
   margin-top: 1rem;
+  margin-bottom: 1rem;
 
   @include media("<large"){
     padding: 1rem;

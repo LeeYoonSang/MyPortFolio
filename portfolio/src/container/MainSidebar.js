@@ -7,7 +7,7 @@ class MainSidebar extends Component {
     render() {
         const { match } = this.props;
         return (
-            <Sidebar url={this.props.match.url}/>
+            <Sidebar url={match.url}/>
         );
     }
 }

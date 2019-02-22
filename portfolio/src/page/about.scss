@@ -1,0 +1,43 @@
+@import '../style/utils.scss';
+
+.Paper{
+    background: white;
+    padding: 0 1.5em;
+    max-width: 1024px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    @include media("<large"){
+        width: auto;
+        margin-left: -.875rem;
+        margin-right: -.875rem;
+    }
+
+    .Header{
+        padding: 1.5em 0;
+        border-bottom: 1px solid rgba(0,0,0,.05);
+    }
+    .profile{
+        border: 0;
+        font-family: inherit;
+        font-size: 100%;
+        font-style: inherit;
+        font-weight: inherit;
+        margin: 0;
+        outline: 0;
+        padding: 0;
+        vertical-align: baseline;
+        .badge{
+            text-align: center;
+            .img{
+                width: 64px;
+                height: 64px;
+            }
+        }
+        .email{
+            text-align: center;
+        }
+    }
+    .skill{
+        padding-left: 2rem;
+    }
+}
