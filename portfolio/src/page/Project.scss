@@ -1,0 +1,42 @@
+@import '../style/utils.scss';
+
+.Paper{
+    background: white;
+    padding: 0 1.5em;
+    max-width: 1024px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    @include media("<large"){
+        width: auto;
+        margin-left: -.875rem;
+        margin-right: -.875rem;
+    }
+    .title{
+        padding-left: 1rem;
+    }
+    .content{
+        padding-top: 1rem;
+        width: 100%;
+        display: flex;
+        @include media("<medium"){
+            flex-direction: column;
+        }
+        .img-content{
+            max-height: 480px;
+            margin-left: 1rem;
+            padding-right: 1rem;
+            @include media("<medium"){
+                height: 240px;
+                margin-bottom: 1.5rem;
+            }
+            .img{
+                width:100%;
+                height: 100%;
+            }
+        }
+        .project-info{
+            padding-left: 1rem;
+
+        }
+    }
+}
