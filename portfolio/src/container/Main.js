@@ -5,7 +5,7 @@ import HeaderContainer from './HeaderContainer';
 import MobileHeaderContainer from './MobileHeaderContainer';
 import MainTemplate from 'component/MainTemplate';
 import MainSidebar from './MainSidebar';
-import { Project, About } from 'page';
+import { Project, About } from 'pages';
 
 class Main extends Component {
     render() {
