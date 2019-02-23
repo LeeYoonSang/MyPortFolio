@@ -13,6 +13,13 @@
     }
     .title{
         padding-left: 1rem;
+        padding-top:1.5rem;
+    }
+    .subtitle{
+        @include media("<medium"){
+            padding-left: 1rem;
+            padding-top: 1rem;
+        }
     }
     .content{
         padding-top: 1rem;
@@ -22,6 +29,7 @@
             flex-direction: column;
         }
         .img-content{
+            max-width: 640px;
             max-height: 480px;
             margin-left: 1rem;
             padding-right: 1rem;
@@ -32,6 +40,15 @@
             .img{
                 width:100%;
                 height: 100%;
+            }
+            .imgnum{
+                text-align: center;
+                position: absolute;
+                padding-top: 0.55rem;
+            }
+            .button{
+                display: flex;
+                justify-content: center;
             }
         }
         .project-info{
