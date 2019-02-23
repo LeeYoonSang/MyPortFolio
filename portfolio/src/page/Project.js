@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './Project.scss';
 import home from 'asset/home.PNG';
-import product from 'asset/product.PNG';
 
 class Project extends Component {
     render() {
