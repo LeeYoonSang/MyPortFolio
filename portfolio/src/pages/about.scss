@@ -13,7 +13,7 @@
     }
 
     .Header{
-        padding: 1.5em 0;
+        padding: 1.25rem 1rem;
         border-bottom: 1px solid rgba(0,0,0,.05);
 
         @include media("<large"){
@@ -28,7 +28,7 @@
         font-weight: inherit;
         margin: 0;
         outline: 0;
-        padding: 0;
+        padding-left: 1rem;
         vertical-align: baseline;
         @include media("<large"){
             padding-left: 1rem;

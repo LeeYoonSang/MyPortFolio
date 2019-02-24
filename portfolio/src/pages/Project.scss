@@ -6,14 +6,15 @@
     max-width: 1024px;
     margin-left: 1rem;
     margin-right: 1rem;
+    margin-top: -1.75rem;
     @include media("<large"){
         width: auto;
         margin-left: -.875rem;
         margin-right: -.875rem;
+        margin-top: 1.5rem;
     }
     .header{
-        padding-left: 1rem;
-        padding-top: 1.5rem;
+        padding: 1.25rem 1rem;
         border-bottom: 1px solid rgba(0,0,0,.05);
         .main-header{
             margin-bottom: 0.33rem;

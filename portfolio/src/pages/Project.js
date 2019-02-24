@@ -42,7 +42,6 @@ class Project extends Component {
             <div className="Paper">
                 <div className="header">
                     <h2 className="main-header">Burpy</h2>
-                    <p className="sub-header">이미지 인식 기반 음료 정보 검색 및 공유 서비스</p>
                 </div>
                 <div className="content">
                     <div className="img-content">

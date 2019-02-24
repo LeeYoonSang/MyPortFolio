@@ -4,7 +4,7 @@ import './Header.scss';
 
 const Header = () => {
     return (
-        <div className="Header">
+        <div className="header">
                 <Link to="/" className="mobile-logo">
                     PortFolio
                 </Link>
