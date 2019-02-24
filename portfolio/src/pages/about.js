@@ -6,7 +6,7 @@ class about extends Component {
         return (
             <div className="Paper">
                 <header className="Header">
-                    <h2>About</h2>
+                    <h2>Profile</h2>
                 </header>
                 <div className="profile">
                     <h2>이윤상</h2>
@@ -25,7 +25,7 @@ class about extends Component {
                     </div>
                 </div>
                 <div className="profile">
-                    <h2>skill</h2>
+                    <h2>기술 스택</h2>
                     <p><strong>Language</strong>: JavaScript</p>
                     <p><strong>Frontend</strong>: React</p>
                     <p><strong>Backend</strong></p>
@@ -33,7 +33,7 @@ class about extends Component {
                     <p className="skill"><strong>- Database</strong>: MongoDB</p>
                 </div>
                 <div className="profile">
-                    <h2>Projects</h2>
+                    <h2>프로젝트</h2>
                     <p>Burpy(2018.02 ~ 2018.10)</p>
                     <p>이미지 검색을 통한 주류/음료 검색 서비스 입니다.</p>
                     <p><strong>기술스택 : </strong>React, Node.js, express, MongoDB, unity, Python, TensorFlow, Django</p>

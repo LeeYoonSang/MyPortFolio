@@ -5,7 +5,7 @@ import HeaderContainer from './HeaderContainer';
 import MobileHeaderContainer from './MobileHeaderContainer';
 import MainTemplate from 'component/MainTemplate';
 import MainSidebar from './MainSidebar';
-import { Project, About } from 'pages';
+import { Project, about } from 'pages';
 
 class Main extends Component {
     render() {
@@ -14,8 +14,8 @@ class Main extends Component {
             <HeaderContainer/>
             <MobileHeaderContainer/>
             <Switch>
-                <Route path="/about" component={About}/>
-                <Route exact path="/project" component={Project}/>
+                <Route path="/(|about)" component={about}/>
+                <Route path="/project" component={Project}/>
             </Switch>
             </MainTemplate>
         );

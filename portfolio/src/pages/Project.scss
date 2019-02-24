@@ -11,13 +11,23 @@
         margin-left: -.875rem;
         margin-right: -.875rem;
     }
+    .header{
+        padding-left: 1rem;
+        padding-top: 1.5rem;
+        border-bottom: 1px solid rgba(0,0,0,.05);
+        .main-header{
+            margin-bottom: 0.33rem;
+        }
+        .sub-header{
+            margin-top: 0;
+        }
+    }
     .title{
         padding-left: 1rem;
         padding-top:1.5rem;
     }
     .subtitle{
         @include media("<medium"){
-            padding-left: 1rem;
             padding-top: 1rem;
         }
     }
@@ -31,6 +41,7 @@
         .img-content{
             max-width: 640px;
             max-height: 480px;
+            width: 100%;
             margin-left: 1rem;
             padding-right: 1rem;
             @include media("<medium"){

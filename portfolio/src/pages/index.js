@@ -1,3 +1,3 @@
 export { default as Home } from './Home';
 export { default as Project } from './Project';
-export { default as About } from './about';
+export { default as about } from './about';

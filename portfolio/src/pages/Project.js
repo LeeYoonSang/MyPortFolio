@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
 import './Project.scss';
+
+import burpy from 'asset/burpy.png';
 import home from 'asset/home.PNG';
 import product from 'asset/product.PNG';
+import flow_chart from 'asset/flow_chart.png';
+import structure_chart from 'asset/structure_chart.png';
 
 import Button from 'component/Button';
 
@@ -18,7 +22,7 @@ class Project extends Component {
 
     IncreasehandleClick(v) {
         this.setState({ num: v + 1, decrease_disable: false });
-        if (this.state.num >= 1) {
+        if (this.state.num >= 3) {
             this.setState({ increase_disable: true })
         }
     }
@@ -31,14 +35,14 @@ class Project extends Component {
     }
     render() {
         const { num, increase_disable, decrease_disable } = this.state
-        let imgarr = [home, product, home];
+        let imgarr = [burpy, flow_chart, structure_chart, home, product];
         let img = imgarr[num];
 
         return (
             <div className="Paper">
-                <div className="title">
-                    <h2>Burpy</h2>
-                    <p>이미지 인식 기반 음료 정보 검색 및 공유 서비스</p>
+                <div className="header">
+                    <h2 className="main-header">Burpy</h2>
+                    <p className="sub-header">이미지 인식 기반 음료 정보 검색 및 공유 서비스</p>
                 </div>
                 <div className="content">
                     <div className="img-content">
@@ -60,7 +64,7 @@ class Project extends Component {
                             <h2>내 역할</h2>
                             <p>Web 클라이언트 개발, API서버 개발</p>
                         </div>
-                        <div>
+                        <div className="subtitle">
                             <h2>사용 기술</h2>
                             <p><strong>- Web</strong>: React.js, Node.js, express, mongoose, redux</p>
                             <p><strong>- Unity</strong>: C#, Tensorflow, Keras, Django</p>
