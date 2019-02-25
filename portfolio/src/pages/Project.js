@@ -49,7 +49,9 @@ class Project extends Component {
                         <div className="button">
                             <Button name="prev" onclick={() => this.DecreasehandleClick(num)} disable={decrease_disable} />
                             <Button name="next" onclick={() => this.IncreasehandleClick(num)} disable={increase_disable} />
-                            <p className="imgnum">{num + 1}/{imgarr.length}</p>
+                        </div>
+                        <div className="imgnum">
+                            <p>{num + 1}/{imgarr.length}</p>
                         </div>
                     </div>
                     <div className="project-info">

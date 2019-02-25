@@ -14,8 +14,7 @@
         font-size: 1.25rem;
     }
     border-bottom: 2px solid transparent;
-
-    &:active {
+    &.active {
         border-bottom: 2px solid $oc-red-4;
         color: $oc-red-5;
         font-weight: 600;

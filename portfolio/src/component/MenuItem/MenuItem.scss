@@ -21,7 +21,7 @@
         background: $oc-gray-7;
     }
 
-    &:active{
+    &.active{
         color: $oc-red-5;
         border-right: 2px solid $oc-red-4;
         .text{
