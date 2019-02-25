@@ -5,7 +5,7 @@
     flex: 1;
     align-items: center;
     justify-content: center;
-    color: $oc-gray-7;
+    color: $oc-gray-0;
     padding-top: 1rem;
     padding-bottom: 1rem;
 
@@ -16,8 +16,8 @@
     border-bottom: 2px solid transparent;
 
     &:active {
-        border-bottom: 2px solid $oc-violet-4;
-        color: $oc-violet-5;
+        border-bottom: 2px solid $oc-red-4;
+        color: $oc-red-5;
         font-weight: 600;
     }
 }

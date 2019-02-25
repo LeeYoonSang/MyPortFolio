@@ -39,7 +39,7 @@ class Project extends Component {
         let img = imgarr[num];
 
         return (
-            <div className="Paper">
+            <div className="project-Paper">
                 <div className="header">
                     <h2 className="main-header">Burpy</h2>
                 </div>
@@ -78,7 +78,7 @@ class Project extends Component {
                     </p>
                 </div>
                 <div className="title">
-                    <h2>상세 설명</h2>
+                    <h2>설명</h2>
                     <p>사용자들이 이미지 검색을 통해 주류 및 음료를 검색할 수 있습니다.<br />
                         다른 사용자들과 함께 상품에 대한 정보와 평가를 공유 할 수 있습니다.<br />
                         상품에 대한 평가를 기반으로 개인화된 상품 추천 기능을 제공합니다.</p>

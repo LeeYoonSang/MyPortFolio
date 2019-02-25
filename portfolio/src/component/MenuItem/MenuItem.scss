@@ -1,7 +1,7 @@
 @import '../../style/utils.scss';
 
 .MenuItem {
-    color: $oc-gray-7;
+    color: $oc-gray-0;
     cursor: pointer;
 
     a{
@@ -18,12 +18,12 @@
         }
     }
     &:hover{
-        background: $oc-gray-0;
+        background: $oc-gray-7;
     }
 
     &:active{
-        color: $oc-violet-5;
-        border-right: 2px solid $oc-violet-4;
+        color: $oc-red-5;
+        border-right: 2px solid $oc-red-4;
         .text{
             font-weight:500;
         }

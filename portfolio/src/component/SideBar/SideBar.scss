@@ -12,19 +12,20 @@
     @include media("<large"){
         transform: translate(-100%);
     }
-    background: white;
+    background: $oc-gray-9;
     height: 100%;
     top: 0;
     left: 0;
-    box-shadow: -6px 0px 12px 0px #d6dee4;
+    box-shadow: -6px 0px 12px 0px $oc-gray-0;
     .logo{
         padding: 1.75rem 2rem;
         font-size: 2rem;
         line-height: 2rem;
         font-family: "Inconsolata";
-        color: $oc-gray-9;
+        color: $oc-gray-0;
         display: block;
         position: relative;
+        margin-bottom: 2rem;
     }
     .menu{
         margin-top: 1rem;

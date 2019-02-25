@@ -1,15 +1,17 @@
 @import '../style/utils.scss';
 
-.Paper{
+.about-Paper{
     background: white;
     padding: 0 1.5em;
     max-width: 1024px;
     margin-left: 1rem;
     margin-right: 1rem;
+    margin-top: -1.7rem;
     @include media("<large"){
         width: auto;
         margin-left: -.875rem;
         margin-right: -.875rem;
+        margin-top: 1.7rem;
     }
 
     .Header{
@@ -17,7 +19,7 @@
         border-bottom: 1px solid rgba(0,0,0,.05);
 
         @include media("<large"){
-            padding-left: 1rem;
+            padding-left: 0.25rem;
         }
     }
     .profile{
@@ -31,7 +33,7 @@
         padding-left: 1rem;
         vertical-align: baseline;
         @include media("<large"){
-            padding-left: 1rem;
+            padding-left: 0.25rem;
         }
         .badge{
             text-align: center;

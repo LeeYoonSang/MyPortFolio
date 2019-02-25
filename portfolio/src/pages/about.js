@@ -4,9 +4,9 @@ import './about.scss'
 class about extends Component {
     render() {
         return (
-            <div className="Paper">
+            <div className="about-Paper">
                 <header className="Header">
-                    <h2>Profile</h2>
+                    <h2>About</h2>
                 </header>
                 <div className="profile">
                     <h2>이윤상</h2>
