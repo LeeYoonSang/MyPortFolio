@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import './SideBar.scss';
 
 import MenuItem from 'component/MenuItem';
+import User_icon from 'react-icons/lib/ti/user';
+import Project_icon from 'react-icons/lib/ti/book';
 
 class SideBar extends Component {
     render() {
@@ -14,10 +16,12 @@ class SideBar extends Component {
                 </Link>
                 <ul className="menu">
                     <MenuItem
+                        icon={<User_icon />}
                         text="about"
                         to="/about"
-                        active={url === '/about'} />
+                        active={['/', '/about'].indexOf(url) > -1} />
                     <MenuItem
+                        icon={<Project_icon />}
                         text="project"
                         to="/project"
                         active={url === '/project'} />

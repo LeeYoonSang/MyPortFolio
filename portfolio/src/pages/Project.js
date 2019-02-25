@@ -8,6 +8,8 @@ import flow_chart from 'asset/flow_chart.png';
 import structure_chart from 'asset/structure_chart.png';
 
 import Button from 'component/Button';
+import Next from 'react-icons/lib/ti/arrow-forward';
+import Prev from 'react-icons/lib/ti/arrow-back';
 
 class Project extends Component {
     constructor(props) {
@@ -47,8 +49,8 @@ class Project extends Component {
                     <div className="img-content">
                         <img className="img" src={img} />
                         <div className="button">
-                            <Button name="prev" onclick={() => this.DecreasehandleClick(num)} disable={decrease_disable} />
-                            <Button name="next" onclick={() => this.IncreasehandleClick(num)} disable={increase_disable} />
+                            <Button icon={<Prev/>} onclick={() => this.DecreasehandleClick(num)} disable={decrease_disable} />
+                            <Button icon={<Next/>} onclick={() => this.IncreasehandleClick(num)} disable={increase_disable} />
                         </div>
                         <div className="imgnum">
                             <p>{num + 1}/{imgarr.length}</p>

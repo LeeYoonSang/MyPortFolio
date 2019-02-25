@@ -7,10 +7,15 @@ class MobileHeader extends Component {
         const { url } = this.props;
         return (
             <div className="MobileHeader">
-            <MobileHeadItem
-            active={url==='/about'} to="/about" name="about"/>
-            <MobileHeadItem active={url==='/project'} to="/project" name="project"/>
-                
+                <MobileHeadItem
+                    active={['/', '/about'].indexOf(url)>-1}
+                    to="/about"
+                    name="about" />
+                <MobileHeadItem
+                    active={url === '/project'}
+                    to="/project" 
+                    name="project" />
+
             </div>
         );
     }

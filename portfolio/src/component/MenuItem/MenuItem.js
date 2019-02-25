@@ -5,10 +5,11 @@ import { Link } from 'react-router-dom';
 
 const cx = classNames.bind(styles);
 
-const MenuItem = ({ text, to, active }) => {
+const MenuItem = ({ text, to, active, icon }) => {
     return (
         <li className={cx('MenuItem',{ active })}>
             <Link to={to}>
+            {icon}
             <div className="text">{text}</div>
             </Link>
         </li>
