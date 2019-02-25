@@ -65,9 +65,9 @@ class Project extends Component {
                         </div>
                         <div className="subtitle">
                             <h2>사용 기술</h2>
-                            <p><strong>- Web</strong>: React.js, Node.js, express, mongoose, redux</p>
-                            <p><strong>- Unity</strong>: C#, Tensorflow, Keras, Django</p>
-                            <p><strong>- DataBase</strong>: MongoDB</p>
+                            <p><strong>Web</strong>: React.js, Node.js, express, mongoose, redux</p>
+                            <p><strong>Unity</strong>: C#, Tensorflow, Keras, Django</p>
+                            <p><strong>DataBase</strong>: MongoDB</p>
                         </div>
                     </div>
                 </div>
@@ -79,9 +79,9 @@ class Project extends Component {
                 </div>
                 <div className="title">
                     <h2>설명</h2>
-                    <p>사용자들이 이미지 검색을 통해 주류 및 음료를 검색할 수 있습니다.<br />
-                        다른 사용자들과 함께 상품에 대한 정보와 평가를 공유 할 수 있습니다.<br />
-                        상품에 대한 평가를 기반으로 개인화된 상품 추천 기능을 제공합니다.</p>
+                    <p>사용자들이 이미지 검색을 통해 주류 및 음료를 검색할 수 있습니다.</p>
+                    <p>다른 사용자들과 함께 상품에 대한 정보와 평가를 공유 할 수 있습니다.</p>
+                    <p>상품에 대한 평가를 기반으로 개인화된 상품 추천 기능을 제공합니다.</p>
                 </div>
             </div>
         );
