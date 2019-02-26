@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './about.scss'
 
+import github_Icon from 'asset/github.png';
+
 class about extends Component {
     render() {
         return (
@@ -18,7 +20,7 @@ class about extends Component {
                         </p>
                         <div className="badge">
                         <a href="https://github.com/LeeYoonSang">
-                        <img src="https://s3.namuwikiusercontent.com/s/7d29a8a8cc8b2df50c3ee7a463e6547bdb5d048532fc15a58777be0bdea627c36dc49f422e405dbae2f3d3dd92e46e753a8b24db4f02b38ccac5c3a82a6c4275f6ac5d5d26c7bf43d339b2d0307da9cdb66ae09324f47e1c00d393c1cc9a6f99" className="img"/>
+                        <img src={github_Icon} className="img"/>
                         </a>
                         </div>
                         <div className="email">Email : kty189@naver.com</div>
