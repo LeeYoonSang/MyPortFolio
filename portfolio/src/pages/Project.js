@@ -48,16 +48,18 @@ class Project extends Component {
                 <div className="content">
                     <div className="img-content">
                         <img className="img" src={img} />
-                        <div className="button">
-                            <Button icon={<Prev/>} onclick={() => this.DecreasehandleClick(num)} disable={decrease_disable} />
-                            <Button icon={<Next/>} onclick={() => this.IncreasehandleClick(num)} disable={increase_disable} />
-                        </div>
-                        <div className="imgnum">
-                            <p>{num + 1}/{imgarr.length}</p>
+                        <div>
+                            <div className="button-position">
+                                <Button icon={<Prev style={{verticalAlign : 'center'}}/>} onclick={() => this.DecreasehandleClick(num)} disable={decrease_disable} />
+                                <Button icon={<Next style={{verticalAlign : 'center'}} />} onclick={() => this.IncreasehandleClick(num)} disable={increase_disable} />
+                            </div>
+                            <div className="imgnum">
+                                <p>{num + 1}/{imgarr.length}</p>
+                            </div>
                         </div>
                     </div>
                     <div className="project-info">
-                        <div className="subtitle">
+                        <div className="team">
                             <h2>Team</h2>
                             <p><strong>Web</strong>: 정석호, 이윤상</p>
                             <p><strong>Unity</strong>: 박건희, 최종인</p>

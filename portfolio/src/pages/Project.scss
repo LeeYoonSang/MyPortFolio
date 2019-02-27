@@ -41,6 +41,13 @@
             padding-left: 0.25rem;
         }
     }
+    .team{
+        @include media("<medium"){
+            padding-top: 1rem;
+            padding-left: 0.25rem;
+            margin-top: 2rem;
+        }
+    }
     .content{
         padding-top: 1rem;
         padding-left: 1rem;
@@ -57,7 +64,6 @@
             padding-right: 1rem;
             @include media("<medium"){
                 height: 240px;
-                margin-bottom: 1.5rem;
                 margin-left: 0.5rem;
             }
             .img{
@@ -65,12 +71,13 @@
                 height: 100%;
                 margin-top: 1rem;
             }
-            .button{
+            .button-position{
                 display: flex;
                 justify-content: center;
             }
             .imgnum{
                 text-align: center;
+                margin-top: -.5rem;
             }
         }
         .project-info{

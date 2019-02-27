@@ -5,7 +5,10 @@ import './Button.scss';
 const Button = ({icon, onclick, disable}) => {
     return (
         <div>
-            <button className="button" onClick={onclick} disabled={disable}>{icon}</button>
+            <button 
+            className="button" 
+            onClick={onclick} 
+            disabled={disable}>{icon}</button>
         </div>
     );
 };
