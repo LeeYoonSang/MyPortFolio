@@ -43,6 +43,7 @@
     }
     .content{
         padding-top: 1rem;
+        padding-left: 1rem;
         width: 100%;
         display: flex;
         @include media("<medium"){
